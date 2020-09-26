@@ -20,7 +20,7 @@ def queueGame():
             if i >= 19:
                 afkAvoid(0, 0)
     else:
-        for i in range(8):
+        for i in range(7):
             time.sleep(15)
             pt.keyDown("W")
             time.sleep(1)
